@@ -1,45 +1,71 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
-.eggs/
+# Gradle
+.gradle/
+**/build/
 
-# Virtual environments
-venv/
-.venv/
-env/
-.env
+gradle-app.setting
+.gradletasknamecache
 
-# Testing / coverage
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
+# Gradle wrapper (project chooses to ignore these)
+gradle
+gradlew
+gradlew.bat
 
-# Java
+# Java / JVM
 *.class
-target/
+*.log
 *.jar
 *.war
-.gradle/
-build/
-out/
-bin/
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
 
-# JetBrains IDE
+# Spring Boot
+**/out/
+*.original
+
+# IDE
 .idea/
-
-# VS Code
+*.iml
+*.ipr
+*.iws
+out/
+.classpath
+.project
+.settings/
+bin/
 .vscode/
 
-# macOS
+# OS files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.keystore
+
+# Local application configs
+application-local*
+
+# Logs & temp
+logs/
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
 
 # AI
-.claude
+.claude/
+*.CLAUDE.md
